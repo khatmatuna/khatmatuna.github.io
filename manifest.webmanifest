@@ -1,7 +1,7 @@
 {
   "name": "ختمتنا — نقرأ القرآن معًا",
   "short_name": "ختمتنا",
-  "description": "وِرد يومي من القرآن، وحدك أو مع أهلك، حتى تختموا معًا.",
+  "description": "وِردك اليومي من القرآن، وختمة مع أهلك، والأذكار ومواقيت الصلاة. مجاني، بلا إعلانات، وبلا تسجيل.",
   "lang": "ar",
   "dir": "rtl",
   "start_url": "./",
@@ -34,10 +34,36 @@
   ],
   "shortcuts": [
     {
-      "name": "ورد اليوم",
-      "short_name": "ورد اليوم",
-      "description": "صفحتا اليوم من ختمة القناة",
-      "url": "./#/wird",
+      "name": "وِردي اليوم",
+      "short_name": "وِردي",
+      "description": "افتح وِردك من حيث وقفت",
+      "url": "./#/my",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "الأذكار",
+      "short_name": "الأذكار",
+      "description": "أذكار الصباح والمساء وبعد الصلاة والنوم",
+      "url": "./#/adhkar",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "مواقيت الصلاة",
+      "short_name": "المواقيت",
+      "description": "مواقيت الصلاة واتجاه القبلة",
+      "url": "./#/prayer",
       "icons": [
         {
           "src": "icons/icon-192.png",
