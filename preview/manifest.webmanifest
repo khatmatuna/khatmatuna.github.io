@@ -1,0 +1,89 @@
+{
+  "name": "ختمتنا — نقرأ القرآن معًا",
+  "short_name": "ختمتنا",
+  "description": "وِردك اليومي من القرآن، وختمة مع أهلك، والأذكار ومواقيت الصلاة. مجاني، بلا إعلانات، وبلا تسجيل.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070d20",
+  "theme_color": "#070d20",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "books",
+    "education",
+    "lifestyle"
+  ],
+  "shortcuts": [
+    {
+      "name": "وِردي اليوم",
+      "short_name": "وِردي",
+      "description": "افتح وِردك من حيث وقفت",
+      "url": "./#/my",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "الأذكار",
+      "short_name": "الأذكار",
+      "description": "أذكار الصباح والمساء وبعد الصلاة والنوم",
+      "url": "./#/adhkar",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "مواقيت الصلاة",
+      "short_name": "المواقيت",
+      "description": "مواقيت الصلاة واتجاه القبلة",
+      "url": "./#/prayer",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "المصحف",
+      "short_name": "المصحف",
+      "description": "فهرس السور والأجزاء",
+      "url": "./#/mushaf",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
