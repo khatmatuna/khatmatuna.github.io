@@ -3,7 +3,7 @@
 // Mushaf pages, tafsir and fonts are kept after the first visit and served from the device.
 // Recitations and the database are never cached here.
 const DATA = "kt-data-v2"; // public/pages, public/tafsir, public/fonts, public/icons: change the name whenever they change
-const APP = "kt-app-baddbda2-202611272045"; // the site itself: a new name on every deploy (written by scripts/publish.sh)
+const APP = "kt-app-baddbda2-202611272116"; // the site itself: a new name on every deploy (written by scripts/publish.sh)
 const isData = (path) => /\/(pages|tafsir|fonts|icons)\//.test(path);
 
 self.addEventListener("install", () => self.skipWaiting());
